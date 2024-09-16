@@ -1,0 +1,22 @@
+#remove {
+    font-size: 5vh;
+    padding: 5vh;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    width: auto;
+    animation: 3s both slidein;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 50%;
+      margin-top: 0%;
+    }
+  
+    to {
+        opacity: 100%;
+      margin-top: 100%;
+    }
+  }
